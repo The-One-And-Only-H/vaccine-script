@@ -1,0 +1,18 @@
+2021-06-07 22:30:04,007 INFO In a queue
+2021-06-07 22:31:04,093 INFO In a queue
+Traceback (most recent call last):
+  File "/home/h/Documents/vaccinescript/vaccine.py", line 107, in <module>
+    main()
+  File "/home/h/Documents/vaccinescript/vaccine.py", line 68, in main
+    elem = driver.find_element_by_id("option_No_input")
+  File "/home/h/Documents/vaccinescript/.venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/home/h/Documents/vaccinescript/.venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/h/Documents/vaccinescript/.venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/h/Documents/vaccinescript/.venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="option_No_input"]"}
+  (Session info: headless chrome=89.0.4389.114)
+

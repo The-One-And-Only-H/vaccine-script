@@ -1,0 +1,2 @@
+selenium>=3.141,<3.142
+slackclient>=2.2,<2.3
