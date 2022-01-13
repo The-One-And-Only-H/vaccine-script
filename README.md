@@ -1,4 +1,6 @@
-Vaccine hack
+# Vaccine checker
+
+Python script using Selenium regularly run with Cron tabs to check the NHS website for eligibility of getting a covid vaccine with updates sent to Slack
 
 Install version 89 of ChromeDriver: https://sites.google.com/chromium.org/driver/downloads?authuser=0
 
